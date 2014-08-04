@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative 'cookie_crawler'
+
+cc = CookieCrawler.new(2070866, 10)
+cc.crawl
